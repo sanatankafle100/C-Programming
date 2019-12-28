@@ -9,4 +9,5 @@ int main(){
 		n-=1;
 	}
 	printf("%d is the sum.\n",sum);
+	return 0;
 }
