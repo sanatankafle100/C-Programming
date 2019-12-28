@@ -2,6 +2,8 @@
 
 #include <stdio.h>
 #include <string.h>
+#include <ctype.h>
+
 
 int main(){
     int num,sum=0,product=1,i;
@@ -10,10 +12,11 @@ int main(){
     printf("Please Enter a number: ");
     scanf("%d",&num);
 
-    printf("Enter 's' or 'S' for sum and 'p' or 'P' for product: ");
+    printf("Enter 's' for sum and 'p' for product: ");
     scanf(" %c",&choice);
+    choice=tolower(choice);
 
-    if(choice=='s'|| choice=='S')
+    if(choice=='s')
     {
         for(i=1;num>=i;i+=1)
         {
@@ -21,7 +24,7 @@ int main(){
         }
         printf("%d is the sum\n",sum );
     }
-    else if(choice=='P' || choice=='p')
+    else if(choice=='p')
     {
         while(num>0)
         {
