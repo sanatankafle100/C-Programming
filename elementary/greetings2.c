@@ -1,4 +1,4 @@
-/*Modify the previous program such that only the users Alice and Bob are greeted with their names.*/
+/*Modify the previous program such that only the users Alice and Bob are greeted with their names .*/
 #include <stdio.h>
 #include <string.h>
 
