@@ -23,6 +23,7 @@ int main(){
         }
         printf("%d is the sum\n",sum );
     }
+    
     else if(choice=='p')
     {
         while(num>0)
