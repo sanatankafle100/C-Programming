@@ -11,7 +11,7 @@ int main()
     printf("Enter the present year: ");
     scanf("%d",&year);
     year=leapornot(year);
-    if(year%400==0 || (year%4==0 && year!=0))
+    if(year%400==0 || (year%4==0 && year%100!=0))
     {
         for(i=0;i<20;i++)
         {
