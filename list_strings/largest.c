@@ -6,7 +6,7 @@ double largest();
 int main(){
   double largest1, largest2;
   double array1[] = {-1, -2, -54.1, -23};
-  double array2[] = {1,23,32};
+  double array2[] = {1, 23, 32};
  
   printf("Testing for the first array containing 1, 2, 54.12, 23\n");
   largest1 = largest(array1, 4);
@@ -14,7 +14,7 @@ int main(){
   assert(largest1 == -1);
 
  
-  printf("Testing for the second array which was empty.\n");
+  printf("Testing for the second array containing 1, 23, 32.\n");
   largest2 = largest(array2, 3);
   assert(largest2 == 32);
 
